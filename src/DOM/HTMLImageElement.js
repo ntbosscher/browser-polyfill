@@ -1,5 +1,5 @@
 import { Image } from 'react-native';
-import * as FileSystem from 'expo-file-system';
+import * as FileSystem from 'expo-file-system/legacy';
 const { writeAsStringAsync, documentDirectory } = FileSystem;
 const EncodingType = FileSystem.EncodingType || FileSystem.EncodingTypes;
 
